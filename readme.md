@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/6b788cd2-4be9-467c-8839-d9659f2b11f0)
 
 ## Whatsapp Discussion GPT
 
