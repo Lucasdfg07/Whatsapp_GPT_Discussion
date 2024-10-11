@@ -1,0 +1,48 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
+    capybara (3.40.0)
+      addressable
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.11)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    matrix (0.4.2)
+    mini_mime (1.1.5)
+    nokogiri (1.16.3-x86_64-linux)
+      racc (~> 1.4)
+    public_suffix (5.0.5)
+    racc (1.7.3)
+    rack (3.0.10)
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    regexp_parser (2.9.0)
+    rexml (3.2.6)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.10.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    webdrivers (5.3.1)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.0)
+      selenium-webdriver (~> 4.0, < 4.11)
+    websocket (1.2.10)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  capybara
+  selenium-webdriver
+  webdrivers
+
+BUNDLED WITH
+   2.4.22
